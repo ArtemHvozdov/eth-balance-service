@@ -1,0 +1,23 @@
+{
+  "name": "eth-balance-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemHvozdov/eth-balance-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemHvozdov/eth-balance-service/issues"
+  },
+  "homepage": "https://github.com/ArtemHvozdov/eth-balance-service#readme",
+  "dependencies": {
+    "web3": "^4.2.2"
+  }
+}
