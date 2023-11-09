@@ -1,5 +1,3 @@
-# eth-balance-service
-
 Before starting, you need to create a ".env" file in the root directory. 
 In this file, create the variable "API_KEY". 
 This is the value of your API key to access the Infura provider.
