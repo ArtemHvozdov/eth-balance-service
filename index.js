@@ -26,7 +26,7 @@ app.get('/balance/:address', async (req, res) => {
         const balanceString = balance.toString();
         res.json({ address, balance: balanceString + " Wei" });
     } catch (error) {
-        console.error('Ошибка при запросе баланса:', error);
+        console.error('Error when requesting balance:', error);
         res.status(500).json({error: "Error request of balance"});
     }
 });
